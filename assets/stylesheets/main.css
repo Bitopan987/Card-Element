@@ -1,0 +1,102 @@
+:root{
+    font-size: 18px;
+}
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+
+/* Custom Styles */
+
+
+section{
+    background:url(../images/julian-hochgesang-7SV4cz3UFEI-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    border-radius: 7px;
+    background:linear-gradient(to bottom right,rgba(255,255,255,.2),rgba(255,255,255,.5));
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 1rem 2rem .8rem rgba(0,0,0,.5);
+}
+
+.card-header{
+    background:linear-gradient(to bottom right,rgba(255,255,255,.2),rgba(255,255,255,.5)), url(../images/mehdi-noorzai-8mmqieFl1s8-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    height:150px;
+   
+   
+}
+
+.img-holder{
+    width: 7rem;
+    height: auto;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid white;
+    margin: -4rem auto .5rem auto;
+}
+.card-body{
+    padding: 0 20px 30px;
+}
+
+.name-age{
+    font-size:1.2rem;
+    margin-bottom: .8rem;
+}
+.age,
+.city,
+.meta{
+    font-weight: 200;
+    color: white;
+}
+
+.city{
+    font-size: .9rem;
+}
+
+.card-footer{
+    border-top:1px solid white;
+    display: flex;
+    padding: 0 1rem;
+}
+.card-footer .item{
+    flex: 1;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-footer .item .value{
+    font-size: 1rem;
+    margin-bottom: .2rem;
+}
+
+.card-footer .item .meta{
+    letter-spacing: 1px;
+    font-size: .6rem;
+}
